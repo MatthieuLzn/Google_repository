@@ -1,0 +1,162 @@
+
+
+
+a:not(.firsta)
+{ 
+ text-decoration:none; 
+ color: rgb(140, 140, 140);
+} 
+a:hover:not(.firsta)
+{
+	text-decoration: underline;
+
+}
+.firsta
+{
+	text-decoration:none;
+	color: black;
+}
+#logo
+{
+	width: 250px;
+	display: block;
+	margin: auto;
+	margin-top: 200px;
+	
+}
+
+body
+{
+	font-family: Roboto;
+	font-size: 1.1em;
+}
+
+#entete
+{
+	display: flex;
+	justify-content: flex-end;
+}
+.elements
+{
+	margin: 20px;
+	color: black;
+	font-size: 0.9em;
+}
+#button_research
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnSearch
+{
+	height: 35px;
+	width: 150px;
+	font-size: 0.85em;
+	background-color: white;
+	border: 0px grey solid;
+}
+.btnSearch:hover
+{
+	border: 1px grey solid;
+	border-radius: 5px;
+}
+
+
+
+#research
+{
+	display: flex;
+	margin: auto;
+	margin-top: 25px;
+	border-radius: 30px;
+	height:	38px;
+	width: 30%;
+	max-width: 650px;
+	min-width: 350px;
+	border: 1px grey solid;
+
+}
+#research:active
+{
+	border-style: none;
+}
+
+#button_research
+{
+	display: flex;
+	margin: 35px;
+
+}
+
+#trad
+{
+	margin-top: 50px;
+	text-align: center;
+	font-size: 0.85em;
+}
+
+
+#bordure
+{
+	border-bottom: 1px grey solid;
+	padding: 15px;
+	border-color: rgb(140, 140, 140) transparent;
+}
+
+#barre
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	text-decoration: none;
+	font-size: 0.95em;
+	
+	
+
+
+}
+.element
+{
+	margin: 15px;
+	margin-top: 1px;
+}
+#element1
+{
+	margin: 15px;
+	flex: 1;
+}
+
+footer
+{
+	background-color: rgb(240, 240, 240);
+	color: rgb(140, 140, 140);
+
+}
+
+.none
+{
+	text-decoration:none; 
+ color: rgb(140, 140, 140);
+}
+
+#leaf_logo
+{
+	width: 15px;
+	height: auto;
+}
+
+html, body {
+	height: 100%;
+	margin: 0; padding: 0;
+}
+body {
+	display : table;
+	width: 100%;
+}
+footer {
+	display : table-row;
+	height: 100px; /* à titre d'exemple */
+}
